@@ -1,0 +1,349 @@
+.coverage-section {
+    padding: 80px 0;
+  }
+  
+  .coverage-title {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+  
+  .title-light {
+    font-weight: 300;
+  }
+  
+  .title-bold2 {
+    font-weight: 700;
+    color: #2b2b2b;
+  }
+  
+  .coverage-desc {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .highlight-green {
+    color: #088b6b;
+    font-weight: bold;
+  }
+  
+  .coverage-services {
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .btn_button {
+    display: inline-block;
+    padding: 8px 60px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #088b6b;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+  transition: background-color 0.3s ease; /* Transición para el efecto hover */
+  }
+ 
+
+.btn_button:hover {
+  
+  color: white; /* Color de fondo al hacer hover */
+}
+  .image-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-overlay {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .coverage-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+  }
+  
+  .overlay-text {
+    color: white;
+    position: absolute;
+    bottom: 50px;
+    left: 20px; /* Posiciona el texto hacia la izquierda */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left; /* Alinea el texto a la izquierda */
+    max-width: 90%; /* Limita el ancho para evitar que se desborde */
+  }
+  
+  .overlay-text p {
+    font-size: 26px;
+    color: white;
+    margin: 0; /* Elimina espacio adicional arriba y abajo del párrafo */
+    line-height: 1.2; /* Ajusta el espacio entre líneas */
+  }
+  
+  
+  .overlay-text .bold-text {
+    font-weight: 700;
+  }
+  
+  @media (max-width: 992px) {
+    .coverage-title {
+      text-align: left;
+    }
+    .text-column {
+      text-align: left;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .row {
+      flex-direction: column;
+    }
+    .image-column {
+      order: 2;
+      margin-top: 20px;
+    }
+    .coverage-image {
+      max-width: 250px;
+    }
+    .overlay-text {
+      bottom: 10px;
+      font-size: 14px;
+    }
+    /* Centrar el botón solo en versión móvil */
+    .text-column {
+      text-align: left; /* Alinea el texto a la izquierda */
+    }
+    .overlay-text p{
+        font-size: 16px;
+    }
+    .btn_button {
+      display: block; /* Hace que el botón ocupe todo el ancho disponible */
+      margin: 20px auto 0; /* Centra el botón con `auto` y separa arriba con 20px */
+      text-align: center;
+    }
+  }
+  
+  .cta-section {
+    position: relative;
+    background-image: url('../assets2/7maunidad/Premedic_Asesoramiento.jpg'); /* Reemplaza con la ruta de tu imagen de fondo */
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    padding:120px 20px; /* Espaciado interno para el contenido */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff; /* Color de texto blanco */
+  }
+  
+  .cta-content {
+    max-width: 600px; /* Limita el ancho máximo del contenido */
+    text-align: center;
+  }
+  
+  .cta-text {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 20px; /* Espacio entre el texto y el botón */
+  }
+  
+  .btn_button2 {
+    display: inline-block;
+    padding: 8px 60px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #088b6b; /* Color de texto del botón */
+    background-color: #ffffff; /* Fondo blanco del botón */
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn_button2:hover {
+    background-color: #088b6b; /* Cambia el fondo al color verde en hover */
+    color: #ffffff; /* Cambia el color del texto al blanco en hover */
+  }
+  
+  @media (max-width:580px){
+    .cta-section {
+        position: relative;
+        background-image: url('../assets2/7maunidad/Premedic_Asesoramiento.jpg'); /* Reemplaza con la ruta de tu imagen de fondo */
+        background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+        background-position:initial;
+        
+      }
+  }
+
+  .footer-section {
+    position: relative;
+    background-image: url('../assets2/Footer/Premedic_Fondo_footer.jpg'); /* Reemplaza con la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    padding: 40px 20px;
+    color: #ffffff;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between; /* Distribuye las columnas a cada lado */
+    align-items: flex-start;
+    gap: 300px; /* Espacio entre las columnas */
+  }
+  
+  .footer-left, .footer-right {
+    flex: 1;
+  }
+  .footer-left{
+    margin-left: 40px;
+  }
+  
+  .footer-logo {
+    max-width: 180px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-text {
+    max-width: 400px;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  .footer-text a {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+  
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+
+.footer-links-wrapper {
+    display: flex;
+    flex-direction: row; /* Alinea los enlaces uno al lado del otro en pantallas grandes */
+    gap: 40px; /* Espacio entre los grupos de enlaces */
+    margin-bottom: 20px; /* Espacio entre los enlaces y el botón */
+  }
+  
+  .footer-cta-wrapper {
+    margin-top: -40px;
+    align-self: flex-start; /* Mantiene el botón alineado a la izquierda */
+  }
+
+  .footer-links-group {
+    margin-bottom: 20px;
+  }
+  
+  .footer-title {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-links li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-links li span {
+    font-size: 12px;
+    color: #b3b3b3;
+  }
+  
+  .btn_button3 {
+  
+    padding: 8px 70px;
+ 
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #de1560; /* Color de fondo del botón */
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .btn_button3:hover {
+    color: white;
+  
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      text-align: center;
+    }
+    .footer-left{
+      margin-left: 0px;
+    }
+    .footer-left, .footer-right {
+      flex: none;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .footer-content{
+      gap: 10px;
+    }
+    .footer-links-wrapper {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        align-items: center; /* Centra los enlaces */
+        gap: 5px;
+      }
+      .footer-links-group {
+        margin-bottom: 10px;
+      }
+      .btn_button3{
+      padding: 8px 40px;
+      }
+      .footer-right {
+        align-items: center; /* Centra todo el contenido en pantallas pequeñas */
+      }
+    
+      .footer-cta-wrapper {
+      /* Añade espacio adicional entre los enlaces y el botón */
+        align-self: center; /* Centra el botón en pantallas pequeñas */
+        margin-bottom: 50px;
+      }
+  }
+  

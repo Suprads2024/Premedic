@@ -1,0 +1,111 @@
+.plans-section {
+    background-image: url('../assets2/5taunidad/Premedic_Fondo_TenemosUnPlanParaVosYtuFamilia.jpg'); /* Reemplaza con la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    color: #2b2b2b;
+  }
+  
+  .titulo h2{
+    font-size: 37px;
+    font-weight: 100;
+    text-align: center;
+    color: white!important;
+    margin-bottom: 40px;
+  }
+ 
+  
+  .titulo h2 strong {
+    
+    font-weight: 800;
+  }
+  
+  .plans-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .plan-card {
+    margin: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative; /* Necesario para posicionar el ::after relativo a la tarjeta */
+  }
+  
+  .plan-card::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    right: 40px;
+    height: 3px;
+    background-color: #2d2d2d;
+    transition: all 0.4s linear;
+  }
+  
+  
+  .plan-title {
+    font-size: 35px;
+    color: #088b6b;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .plan-details {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 15px;
+  }
+  
+  .plan-details li {
+    font-size: 11px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .highlight-green {
+    color: #088b6b; /* Color verde para el texto del descuento */
+  }
+  
+  .plan-extra {
+    font-weight: 500;
+    font-size: 14px;
+    color: #2b2b2b; /* Color normal para el resto del texto */
+  }
+  
+  .plan-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #088b6b;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    text-align: center; /* Centra el texto horizontalmente */
+    vertical-align: middle; /* Centra el texto verticalmente */
+  }
+  
+  .plan-button:hover {
+    background-color: #2b2b2b; /* Fondo verde más oscuro en hover */
+    color: #ffffff; /* Texto blanco en hover */
+  }
+
+
+  @media (max-width:580px){
+    .titulo h2{
+        font-size: 21px;
+    }
+    .plan-title{
+        font-size: 25px;
+    }
+  }

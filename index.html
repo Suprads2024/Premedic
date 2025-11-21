@@ -1,27 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <meta name="description" content="Medcity - Medical Healthcare HTML5 Template">
-  <link href="assets/images/premedic/Premedic_Iso_Pestaña41x41.png" rel="icon">
-  <title>Premedic</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Premedic - Planes Medicina Prepaga y Obra Social</title>
 
+  <!-- Meta descripción -->
+  <meta name="description"
+    content="Premedic ofrece una amplia cobertura médica en todo el país, con planes personalizados, asistencia nacional e internacional, y acceso a consultas médicas y especialidades sin cargo.">
+
+  <!-- Keywords (opcional) -->
+  <meta name="keywords"
+    content="Premedic, cobertura médica, planes de salud, medicina, salud, atención médica, consultas médicas sin cargo, asistencia nacional e internacional">
+
+  <!-- Canonical para evitar duplicados -->
+  <link rel="canonical" href="https://medicinaprivadapremedic.com.ar">
+
+  <!-- Open Graph para redes sociales -->
+  <meta property="og:title" content="Premedic - Atención Médica y Cobertura de Salud">
+  <meta property="og:description"
+    content="Con Premedic, accede a los mejores planes de cobertura médica, asistencia en clínicas y hospitales de primera calidad, y beneficios exclusivos para nuestra red de afiliados.">
+  <meta property="og:image" content="https://medicinaprivadapremedic.com.ar/logo premedic.png">
+  <meta property="og:url" content="https://medicinaprivadapremedic.com.ar">
+  <meta property="og:type" content="website">
+
+  <!-- Twitter Card para compartir -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Premedic - Cobertura Médica de Alta Calidad">
+  <meta name="twitter:description"
+    content="Planes de salud adaptados a tus necesidades, con cobertura médica amplia y asistencia en todo el país.">
+  <meta name="twitter:image" content="https://medicinaprivadapremedic.com.ar/logo premedic.png">
+
+  <!-- Favicon -->
+  <link href="../assets/images/premedic/Premedic_Iso_Pestaña41x41.png" rel="icon">
+
+  <!-- Fuentes y CSS -->
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
-  <link rel="stylesheet" href="assets/css/libraries.css">
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/services.css">
-  <link rel="stylesheet" href="assets/css/planes.css">
-  <link rel="stylesheet" href="assets/css/cobertura.css">
-  <link rel="stylesheet" href="assets/css/popup.css">
-  <!-- Slick Carousel CSS -->
+  <link rel="stylesheet" href="../assets/css/libraries.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/services.css">
+  <link rel="stylesheet" href="../assets/css/planes.css">
+  <link rel="stylesheet" href="../assets/css/cobertura.css">
+  <link rel="stylesheet" href="../assets/css/popup.css">
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <!-- Slick Carousel -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+
+
 
 
 </head>
+
 
 <body>
   <div class="wrapper">
@@ -39,8 +77,8 @@
       <nav class="navbar navbar-expand-lg sticky-navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
-            <img src="assets/images/premedic/Menu_Logo_Negro.png" class="logo-light" alt="logo">
-            <img src="assets/images/premedic/Menu_Logo_Negro.png" class="logo-dark" alt="logo">
+            <img src="assets/images/premedic/logo premedic.png" class="logo" alt="logo">
+
           </a>
           <button class="navbar-toggler" type="button">
             <span class="menu-lines"><span></span></span>
@@ -52,22 +90,24 @@
 
               </li><!-- /.nav-item -->
               <li class="nav__item has-dropdown">
-                <a href="#" class=" nav__item-link">Prestadores</a>
+                <a href="#prestadores" class=" nav__item-link">Prestadores</a>
+
+              </li><!-- /.nav-item -->
+
+              <li class="nav__item has-dropdown">
+                <a href="#beneficios" class=" nav__item-link">Beneficios</a>
 
               </li><!-- /.nav-item -->
               <li class="nav__item has-dropdown">
-                <a href="#" class=" nav__item-link">Beneficios</a>
+                <a href="#planes" class=" nav__item-link">Planes</a>
 
               </li><!-- /.nav-item -->
+
               <li class="nav__item has-dropdown">
-                <a href="#" class=" nav__item-link">Planes</a>
+                <a href="https://drive.google.com/drive/folders/1vb5Pok-Ub-K4wjCNGuHa7xrPWdcykPxO"
+                  class=" nav__item-link" target="_blank">Cartilla Médica</a>
 
               </li><!-- /.nav-item -->
-              <li class="nav__item has-dropdown">
-                <a href="#" class=" nav__item-link">Cartilla medica</a>
-
-              </li><!-- /.nav-item -->
-
             </ul><!-- /.navbar-nav -->
             <button class="close-mobile-menu d-block d-lg-none"><i class="fas fa-times"></i></button>
           </div><!-- /.navbar-collapse -->
@@ -90,7 +130,11 @@
       <div class="slick-carousel m-slides-0"
         data-slick='{"slidesToShow": 1, "arrows": true, "dots": false, "speed": 700,"fade": true,"cssEase": "linear"}'>
         <div class="slide-item align-v-h">
-          <div class="bg-img"><img src="assets/images/premedic/Premedic_Img_.jpg" alt="slide img"></div>
+          <div class="bg-img">
+            <img src="assets/images/premedic/Premedic_Img_.jpg" alt="slide img" class="header-img">
+          </div>
+
+
           <div class="container">
             <div class="row align-items-center">
               <div class="col-sm-12 col-md-12 col-lg-12 col-xl-7">
@@ -103,16 +147,21 @@
                     <a href="#" class="btn btn_quote">Cotizá tu plan</a>
                   </div>
 
-                </div><!-- /.slide-content -->
-              </div><!-- /.col-xl-7 -->
-            </div><!-- /.row -->
-          </div><!-- /.container -->
-        </div><!-- /.slide-item -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-      </div><!-- /.carousel -->
-    </section><!-- /.slider -->
+      </div>
+    </section>
+
+
+
+
     <div class="floating-buttons">
-      <a href="https://drive.google.com/drive/folders/1vb5Pok-Ub-K4wjCNGuHa7xrPWdcykPxO" class="btn-float btn-cartilla" target="_blank">Cartilla médica</a>
+      <a href="https://drive.google.com/drive/folders/1vb5Pok-Ub-K4wjCNGuHa7xrPWdcykPxO" class="btn-float btn-cartilla"
+        target="_blank">Cartilla médica</a>
       <a href="https://wa.me/5491124035095?text=Hola,%20necesito%20asesoramiento%20personalizado."
         class="btn-float btn-whatsapp" target="_blank">WhatsApp</a>
 
@@ -121,17 +170,17 @@
         Prestadores
     ============================== -->
 
-    <section id="content" class="pb-80">
+    <section id="prestadores" class="pb-80">
       <div class="bg-img"><img src="assets/assets2/2daunidad/Premedic_Fondo2daunidad.jpg" alt="background"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-8 offset-lg-2">
 
             <div class="text-block mb-50">
-              <h5 class="text-block__title">Nuestros</h5>
-              <h2 class="text-block__title font-weight-bold">Principales Prestadores.</h2>
+              <h5 class="text-block__title">La diferencia de</h5>
+              <h2 class="text-block__title font-weight-bold">acceder a nuestros planes</h2>
               <p class="text-block__desc mb-20" style="font-family: Quicksand, sans-serif;">
-                Contamos con los principales <strong style=" color: #088b6b;">Clínicas, Sanatorios y Centros
+                Contamos con las principales <strong style=" color: #088b6b;">Clínicas, Sanatorios y Centros
                   Médicos.</strong> Además de
                 <strong style=" color: #088b6b;">7 Centros Odontológicos</strong> propios que nos permiten brindar
                 turnos a corto plazo.
@@ -145,21 +194,70 @@
                 </div><!-- /.accordion-item-header -->
                 <div id="collapse1" class="collapse" data-parent="#accordion">
                   <div class="accordion__body">
-                    <p>Hospital San Juan de Dios <br>
-                      Sanatorio de la Trinidad (Ramos Mejía) <br>
-                      Clínica Modelo Morón <br>
-                      Clínica Dr. Nano <br>
-                      Sanatorio del Oeste (Ituzaingo y Merlo) <br>
-                      Sanatorio General Sarmiento (San Miguel)<br>
-                      Centro de Diagn. TESLA<br>
-                      IPC Instituto Médico Castelar<br>
-                      Clínica Privada Alcorta (Moreno)<br>
-                      Centro Médico K41 (Moreno)<br>
+                    <p>Casa Hosp. San Juan de Dios<br>
+                      Sanatorio La Trinidad Ramos Mejia<br>
+                      DIM<br>
+                      Centro Medico De Alta Complejidad Resocenter<br>
+                      Clinica Privada Provincial<br>
+                      Sanatorio Anchorena San Martin<br>
+                      Huma - Centro Medico<br>
+                      Sanatorio del Oeste (Ituzaingo)<br>
+                      Sanatorio del Oeste (Merlo)<br>
+                      Clinica Modelo de Moron<br>
+                      Clinica Privada Alcorta<br>
+                      Clinica Privada Provincial de Merlo<br>
+                      Sanatorio Nuestra Señora del Pilar<br>
+                      Sanatorio General Sarmiento<br>
+                      IPC Instituto Medico<br>
                       CEPEM<br>
-                      Centro de diagnóstico Dres. Trovato<br>
-                      Clínica Provincial de Merlo<br>
-                      Clínica Privada del Buen Pastor<br>
-                      Clínica Cruz Celeste<br>
+                      Rosamond Salud<br>
+                      Diagnostico BAIMED<br>
+                      Clinica Modelo de Morón<br>
+                      Sanatorio del Oeste (Ituzaingó)<br>
+                      Centro Médico Dr. Caram<br>
+                      Centro Medico Jonas Salk<br>
+                      Sanatorio del Oeste (Merlo)<br>
+                      Sanatorio Modelo de Caseros<br>
+                      Clinica Quirúrgica del Oeste<br>
+                      Centro Medico Zentrum<br>
+                      IAMED<br>
+                      Sanatorio General Sarmiento<br>
+                      Clinica Catan<br>
+                      Clinica Priv. del Buen Pastor<br>
+                      Clinica Privada Alcorta<br>
+                      IPC<br>
+                      Clinica Privada Provincial de Merlo<br>
+                      Clinica Santa María (Villa Ballester)<br>
+                      Hospital Privado Mariano Moreno<br>
+                      Instituto Medico Agüero<br>
+                      Sanatorio Nuestra Señora del Pilar<br>
+                      Hospital privado Nuestra Señora de la Merced<br>
+                      Sanatorio Estrada<br>
+                      Centro Medico Roma<br>
+                      Clinica Cristo Rey (José C. Paz)<br>
+                      Clinica Cruz Celeste<br>
+                      Sanatorio La Torre Lomas Del Mirador<br>
+                      Sanatorio Modelo Caseros<br>
+                      Sanatorio Priva Figueroa Paredes (Ciudad Madero)<br>
+                      Sanatorio Priva Figueroa Paredes (Laferrere)<br>
+                      Sanatorio Priva Figueroa Paredes (Isidro Casanova)<br>
+                      Sanatorio San Mauricio<br>
+                      Sanatorio San Juan Bautista<br>
+                      Sanatorio La Torre San Martin<br>
+                      Privada Catán<br>
+                      San Mauricio<br>
+                      Consultorios Evolution (MORON)<br>
+                      Centro Medico Palermo<br>
+                      Centro Medico Ruben Dario<br>
+                      Centro Medico San Antonio<br>
+                      Centro Oeste<br>
+                      Clinica Privada Ciudad (C. EVITA)<br>
+                      Conurbano Salud<br>
+                      IAMI-Ramos Mejia<br>
+                      La Torre Asistencia Pediatrica-San Justo<br>
+                      Centro Medico Roma<br>
+                      Ctro Ambulatorio Santa Rosa (Sanatorio del Oeste)<br>
+
                     </p>
                   </div><!-- /.accordion-item-body -->
                 </div>
@@ -336,7 +434,7 @@
         contact layout 3
     =========================== -->
     <section class="contact-layout3 bg-overlay bg-overlay-primary-gradient pb-60">
-      <div class="bg-img"><img src="assets/images/banners/3.jpg" alt="banner"></div>
+      <div class="bg-img"><img src="assets/assets2/3raunidad/2.png" alt="banner"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-7">
@@ -344,7 +442,7 @@
               <div class="heading heading-light mb-30">
                 <h3 class="heading__title mb-30">
                   <span class="title-thin">Nuestros</span>
-                  <span class="title-bold">Principales Prestadores.</span>
+                  <span class="title-bold">Principales Prestadores</span>
                 </h3>
                 <p class="heading__desc">
                   Nos respalda contar con una <strong>Amplia Cartilla Médica</strong> con las principales
@@ -499,7 +597,7 @@
     </section><!-- /.contact layout 3 -->
 
 
-    <section class="services-layout1 pt-130">
+    <section class="services-layout1 pt-130" id="beneficios">
       <div class="bg-img"><img src="assets/assets2/4taunidad/Premedic_Fondo_PorqueElegirPremedic.jpg" alt="background">
       </div>
       <div class="container">
@@ -507,7 +605,7 @@
           <div class="col-sm-12 col-md-12 col-lg-6 offset-lg-3">
             <div class="heading text-center mb-60">
               <h2 class="heading__subtitle"></h2>
-              <h3 class="heading__title">Principales Beneficios</h3>
+              <h3 class="heading__title">Servicios que nos distinguen</h3>
             </div><!-- /.heading -->
           </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
@@ -523,7 +621,7 @@
                   Gestión Ágil
                 </h4>
                 <p class="service__desc">Desde nuestra aplicación vas a poder tener tu Credencial Digital, consultar la
-                  Cartilla Médica, Autorizar tus órdenes, consultar a un Médico por videollamada las 24 hs sin costo y
+                  Cartilla Médica, autorizar tus órdenes, consultar a un Médico por videollamada las 24hs sin costo y
                   mucho más.</p>
               </div>
             </div>
@@ -551,7 +649,7 @@
                 <i class="icon-microscope"></i>
               </div>
               <div class="service__content">
-                <h4 class="service__title">Médico Online las 24 hs
+                <h4 class="service__title">Médico Online las 24hs
                   Sin cargo
                 </h4>
                 <p class="service__desc">Sin esperar en salas de guardia o consultorios. Consultá a un médico las 24hs
@@ -585,7 +683,7 @@
                   Ni coseguros
                 </h4>
                 <p class="service__desc">Todos nuestros planes son SIN coseguros en consultas Pediátricas, Clínicas y
-                  Ginecológicas. Nuestros planes 300,400 y 500 son SIN coseguros en todas las especialidades.</p>
+                  Ginecológicas. Nuestros planes 300, 400 y 500 son SIN coseguros en todas las especialidades.</p>
               </div>
             </div>
           </div><!-- /.col-lg-3 -->
@@ -614,7 +712,7 @@
                 <h4 class="service__title">Centros Médicos y
                   de Diagnóstico
                 </h4>
-                <p class="service__desc">Amplia Red de Centros Médicos, accede a todas las especialidades sin demoras
+                <p class="service__desc">Amplia Red de Centros Médicos. Accedé a todas las especialidades sin demoras
                   para conseguir turnos. También contamos con Centros Médicos propios exclusivos.</p>
               </div>
             </div>
@@ -630,7 +728,7 @@
                   Medicamentos
                 </h4>
                 <p class="service__desc">Descuento de un 40% en medicamentos recetados en una amplia red de farmacias;
-                  contamos con convenio en Farmacity y muchísimas farmacias más..</p>
+                  contamos con convenio en Farmacity y muchísimas farmacias más.</p>
               </div>
             </div>
           </div>
@@ -642,11 +740,11 @@
       </div>
     </section>
 
-    <section class="plans-section">
+    <section class="plans-section" id="planes">
       <div class="container2">
         <div class="titulo">
           <h2>Tenemos un plan <br>
-            para <strong>vos y tu familia.</strong></h2>
+            para <strong>vos y tu familia</strong></h2>
         </div>
         <div class="plans-container">
           <!-- Plan Card #1 -->
@@ -661,19 +759,22 @@
               <li>Internación por urgencia médica sin cargo.</li>
               <li>Amplia red odontológica.</li>
               <li>Descuentos en farmacias del 40%, 70% y 100%.</li>
-              <li>Anticonceptivos de todas las marcas sin cargo.</li>
-              <li>Asistencia al viajero nacional.</li>
+
+              <div class="extra-items" style="max-height: 0; overflow: hidden; transition: max-height 0.4s ease;">
+                <li>Anticonceptivos de todas las marcas sin cargo.</li>
+                <li>Asistencia al viajero nacional.</li>
+              </div>
             </ul>
+            <button class="toggle-btn">Ver más</button>
             <p class="plan-extra">
               <strong><span class="highlight-green">SIN PAGAR CUOTA</span></strong><br>
               Con tu aporte de Obra Social. Exclusivo para trabajadores/as con recibo de sueldo.
             </p>
-            <a href="https://wa.me/5491124035095?text=Hola,%20necesito%20informacion%20de%20cotización%20por%20el%20plan%20Aporte" 
-            class="plan-button" target="_blank">Recibir asesoramiento</a>
-          
+            <a href="https://wa.me/5491124035095?text=Hola,%20necesito%20informacion%20de%20cotización%20por%20el%20plan%20Aporte"
+              class="plan-button" target="_blank">Recibir asesoramiento</a>
           </div>
 
-          <!-- Plan Card #2 -->
+
           <div class="plan-card">
             <h3 class="plan-title">Plan 200</h3>
             <ul class="list-items list-items-layout1 list-unstyled">
@@ -685,21 +786,26 @@
               <li>Médico por videollamada las 24 horas para todas las especialidades sin cargo.</li>
               <li>Laboratorios de baja complejidad (rutina) sin cargo.</li>
               <li>Anticonceptivos sin cargo.</li>
-              <li>Amplia red odontológica sin cargo.</li>
-              <li>Laboratorio de determinaciones hormonales/alta complejidad (hasta 6 sin cargo).</li>
-              <li>Mamografía sin cargo.</li>
-              <li>Odontología sin cargo.</li>
-              <li>Prótesis y ortodoncia con arancel preferencial.</li>
-              <li>Asistencia al viajero nacional.</li>
-
+              <div class="extra-items" style="max-height: 0; overflow: hidden; transition: max-height 0.4s ease;">
+                <li>Amplia red odontológica sin cargo.</li>
+                <li>Laboratorio de determinaciones hormonales/alta complejidad (hasta 6 sin cargo).</li>
+                <li>Mamografía sin cargo.</li>
+                <li>Odontología sin cargo.</li>
+                <li>Prótesis y ortodoncia con arancel preferencial.</li>
+                <li>Asistencia al viajero nacional.</li>
+              </div>
             </ul>
+            <button class="toggle-btn">Ver más</button>
             <p class="plan-extra">
               <strong><span class="highlight-green">Descuento del 20%</span></strong><br>
               Adhiriéndose al débito automático con tarjeta de crédito (promoción sin vencimiento).
             </p>
-            <a href="https://wa.me/5491124035095?text=Hola,%20necesito%20informacion%20de%20cotización%20por%20el%20plan%20200" 
-            class="plan-button" target="_blank">Cotizar Plan 200</a>
+            <a href="https://wa.me/5491124035095?text=Hola,%20necesito%20informacion%20de%20cotización%20por%20el%20plan%20200"
+              class="plan-button" target="_blank">Cotizar Plan 200</a>
           </div>
+
+
+          <!-- Plan 300 -->
           <div class="plan-card">
             <h3 class="plan-title">Plan 300</h3>
             <ul class="list-items list-items-layout1 list-unstyled">
@@ -711,22 +817,28 @@
               <li>Médico por videollamada las 24 horas sin cargo.</li>
               <li>Anticonceptivos sin cargo.</li>
               <li>Odontología sin cargo.</li>
-              <li>Laboratorios de baja complejidad (rutina) sin cargo.</li>
-              <li>Laboratorio de determinaciones hormonales/alta complejidad (hasta 6 sin cargo).</li>
-              <li>Mamografía sin cargo.</li>
-              <li>Prótesis y ortodoncia con arancel preferencial.</li>
-              <li>Descuentos en farmacias del 40%, 50%, 70% y 100%.</li>
-              <li>Red odontológica propia.</li>
-              <li>Descuento del 20% adhiriéndose al débito automático con tarjeta de crédito (promoción sin
-                vencimiento).</li>
+
+              <div class="extra-items" style="max-height: 0; overflow: hidden; transition: max-height 0.4s ease;">
+                <li>Laboratorios de baja complejidad (rutina) sin cargo.</li>
+                <li>Laboratorio de determinaciones hormonales/alta complejidad (hasta 6 sin cargo).</li>
+                <li>Mamografía sin cargo.</li>
+                <li>Prótesis y ortodoncia con arancel preferencial.</li>
+                <li>Descuentos en farmacias del 40%, 50%, 70% y 100%.</li>
+                <li>Red odontológica propia.</li>
+                <li>Descuento del 20% adhiriéndose al débito automático con tarjeta de crédito (promoción sin
+                  vencimiento).</li>
+              </div>
             </ul>
+            <button class="toggle-btn">Ver más</button>
             <p class="plan-extra">
               <strong><span class="highlight-green">Descuento del 20%</span></strong><br>
               Adhiriéndose al débito automático con tarjeta de crédito (promoción sin vencimiento).
             </p>
-            <a href="https://wa.me/5491124035095?text=Hola,%20necesito%20informacion%20de%20cotización%20por%20el%20plan%20200" 
-            class="plan-button" target="_blank">Cotizar Plan 300</a>
+            <a href="https://wa.me/5491124035095?text=Hola,%20necesito%20informacion%20de%20cotización%20por%20el%20plan%20300"
+              class="plan-button" target="_blank">Cotizar Plan 300</a>
           </div>
+
+          <!-- Plan 400 -->
           <div class="plan-card">
             <h3 class="plan-title">Plan 400</h3>
             <ul class="list-items list-items-layout1 list-unstyled">
@@ -738,22 +850,29 @@
               <li>Asistencia nacional e internacional.</li>
               <li>Cirugía refractiva.</li>
               <li>Asistencia al viajero nacional e internacional.</li>
-              <li>Médico por videollamada las 24 horas sin cargo.</li>
-              <li>Laboratorios de baja complejidad (rutina) sin cargo.</li>
-              <li>Laboratorio de determinaciones hormonales/alta complejidad (hasta 6 sin cargo).</li>
-              <li>Mamografía sin cargo.</li>
-              <li>Odontología sin cargo.</li>
-              <li>Prótesis y ortodoncia con arancel preferencial.</li>
-              <li>Anticonceptivos sin cargo.</li>
-              <li>Red odontológica propia.</li>
+
+              <div class="extra-items" style="max-height: 0; overflow: hidden; transition: max-height 0.4s ease;">
+                <li>Médico por videollamada las 24 horas sin cargo.</li>
+                <li>Laboratorios de baja complejidad (rutina) sin cargo.</li>
+                <li>Laboratorio de determinaciones hormonales/alta complejidad (hasta 6 sin cargo).</li>
+                <li>Mamografía sin cargo.</li>
+                <li>Odontología sin cargo.</li>
+                <li>Prótesis y ortodoncia con arancel preferencial.</li>
+                <li>Anticonceptivos sin cargo.</li>
+                <li>Red odontológica propia.</li>
+              </div>
             </ul>
+            <button class="toggle-btn">Ver más</button>
             <p class="plan-extra">
               <strong><span class="highlight-green">Descuento del 20%</span></strong><br>
               Adhiriéndose al débito automático con tarjeta de crédito (promoción sin vencimiento).
             </p>
-            <a href="https://wa.me/5491124035095?text=Hola,%20necesito%20informacion%20de%20cotización%20por%20el%20plan%20200" 
-   class="plan-button" target="_blank">Cotizar Plan 400</a>
+            <a href="https://wa.me/5491124035095?text=Hola,%20necesito%20informacion%20de%20cotización%20por%20el%20plan%20400"
+              class="plan-button" target="_blank">Cotizar Plan 400</a>
           </div>
+
+
+          <!-- Plan 500 -->
           <div class="plan-card">
             <h3 class="plan-title">Plan 500</h3>
             <ul class="list-items list-items-layout1 list-unstyled">
@@ -765,22 +884,26 @@
               <li>Asistencia al viajero nacional e internacional.</li>
               <li>Red odontológica propia.</li>
               <li>Sesiones de kinesiología sin cargo.</li>
-              <li>Laboratorios de baja complejidad (rutina) sin cargo.</li>
-              <li>Laboratorio de determinaciones hormonales/alta complejidad (hasta 6 sin cargo).</li>
-              <li>Mamografía sin cargo.</li>
-              <li>Odontología sin cargo.</li>
-              <li>Prótesis y ortodoncia con arancel preferencial.</li>
-              <li>Anticonceptivos sin cargo.</li>
-              <li>Descuentos en farmacias del 40%, 50%, 70% y 100%.</li>
-              <li>Asistencia nacional e internacional.</li>
-              <li>Cirugía refractiva.</li>
+
+              <div class="extra-items" style="max-height: 0; overflow: hidden; transition: max-height 0.4s ease;">
+                <li>Laboratorios de baja complejidad (rutina) sin cargo.</li>
+                <li>Laboratorio de determinaciones hormonales/alta complejidad (hasta 6 sin cargo).</li>
+                <li>Mamografía sin cargo.</li>
+                <li>Odontología sin cargo.</li>
+                <li>Prótesis y ortodoncia con arancel preferencial.</li>
+                <li>Anticonceptivos sin cargo.</li>
+                <li>Descuentos en farmacias del 40%, 50%, 70% y 100%.</li>
+                <li>Asistencia nacional e internacional.</li>
+                <li>Cirugía refractiva.</li>
+              </div>
             </ul>
-            <li class="plan-extra">
+            <button class="toggle-btn">Ver más</button>
+            <p class="plan-extra">
               <strong><span class="highlight-green">Descuento del 20%</span></strong><br>
               Adhiriéndose al débito automático con tarjeta de crédito (promoción sin vencimiento).
-            </li>
-            <a href="https://wa.me/5491124035095?text=Hola,%20necesito%20informacion%20de%20cotización%20por%20el%20plan%20200" 
-   class="plan-button" target="_blank">Cotizar Plan 500</a>
+            </p>
+            <a href="https://wa.me/5491124035095?text=Hola,%20necesito%20informacion%20de%20cotización%20por%20el%20plan%20500"
+              class="plan-button" target="_blank">Cotizar Plan 500</a>
           </div>
 
           <!-- Repite esta estructura para los planes 300, 400 y 500 -->
@@ -789,8 +912,380 @@
     </section>
 
 
+    <script>
+      document.querySelectorAll('.toggle-btn').forEach(button => {
+        button.addEventListener('click', function () {
+          const extraItems = this.previousElementSibling.querySelector('.extra-items');
+
+          // Toggle max-height para la transición suave
+          if (extraItems.style.maxHeight === '0px' || extraItems.style.maxHeight === '') {
+            // Expande el contenido
+            extraItems.style.maxHeight = extraItems.scrollHeight + "px";
+            this.textContent = 'Ver menos';
+          } else {
+            // Contrae el contenido
+            extraItems.style.maxHeight = '0px';
+            this.textContent = 'Ver más';
+          }
+        });
+      });
+
+    </script>
+
+    <!-- =========================  
+      Testimonials layout 2
+      =========================  -->
+    <section class="testimonials-layout2 pt-130 pb-40">
+      <div class="container">
+        <div class="testimonials-wrapper">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-5">
+              <div class="heading-layout2">
+                <h3 class="heading__title">Clientes felices!</h3>
+              </div><!-- /.heading -->
+            </div><!-- /.col-lg-5 -->
+            <div class="col-sm-12 col-md-12 col-lg-7">
+              <div class="testimonial-slider-container">
+                <button class="prev-btn">❮</button> <!-- Botón Prev -->
+                <div class="slider-with-navs">
+               
+                  <!-- Testimonial #1 -->
+                  <div class="testimonial-item">
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022UJk1jBMiWZNzSY3aFaytCDcEDDLmF1nZZkdEALfuZ4XgGktRDgABPZ65niXir4dl?comment_id=1451202846038010"
+                      target="_blank">
+                      <h3 class="testimonial__title">“Ya hace unos tres años que estoy y la verdad son excelentes, lo recomiendo siempre 💖🫶”
+                      </h3>
+                    </a>
+                  </div><!-- /. testimonial-item -->
+                    <!-- Testimonial #1.5 -->
+                  <div class="testimonial-item">
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022UJk1jBMiWZNzSY3aFaytCDcEDDLmF1nZZkdEALfuZ4XgGktRDgABPZ65niXir4dl?comment_id=1199445935225654"
+                      target="_blank">
+                      <h3 class="testimonial__title">“Super recomienda yo hace dos meses q la tengo la use de urgencia una maravilla”
+                      </h3>
+                    </a>
+                  </div><!-- /. testimonial-item -->
+                  <!-- Testimonial #2 -->
+                  <div class="testimonial-item">
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid036S2xvDxuchyJpQvo5u6j93Q7icAUDCbj2QJ3y8YCXnu7Tpas9EHVyG5FRWdxvmqbl?comment_id=3981295245466212"
+                      target="_blank">
+                      <h3 class="testimonial__title">“Excelente por el momento sin quejas , estamos conforme con mi
+                        grupo familiar”
+                      </h3>
+                    </a>
+                  </div><!-- /. testimonial-item -->
+                  <!-- Testimonial #3 -->
+                  <div class="testimonial-item">
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022fcEP7X73CuSVpW5cTLN6BYnPajn1raiMt9JbWnBWqLDafBsKXbesogcaWFStFSil?comment_id=3012648182233689"
+                      target="_blank">
+                      <h3 class="testimonial__title">“Muy conforme, las veces que me atendió sin problemas, y en
+                        remedios
+                        tengo el 40 % de descuento.”
+                      </h3>
+                    </a>
+                  </div><!-- /. testimonial-item -->
+
+                  <!-- Testimonial #4 -->
+                  <div class="testimonial-item">
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022fcEP7X73CuSVpW5cTLN6BYnPajn1raiMt9JbWnBWqLDafBsKXbesogcaWFStFSil?comment_id=1862987200897796"
+                      target="_blank">
+                      <h3 class="testimonial__title">“La estrené ayer con guardia y farmacia y todo de diez”</h3>
+                    </a>
+                  </div><!-- /. testimonial-item -->
+
+                  <!-- Testimonial #5 -->
+                  <div class="testimonial-item">
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022fcEP7X73CuSVpW5cTLN6BYnPajn1raiMt9JbWnBWqLDafBsKXbesogcaWFStFSil?comment_id=631836582543401"
+                      target="_blank">
+                      <h3 class="testimonial__title">“Yo la tengo hace 18 años y ahora mejoró mucho la atención de las
+                        autorizaciones.”</h3>
+                    </a>
+                  </div><!-- /. testimonial-item -->
+
+                  <!-- Testimonial #6 -->
+                  <div class="testimonial-item">
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022fcEP7X73CuSVpW5cTLN6BYnPajn1raiMt9JbWnBWqLDafBsKXbesogcaWFStFSil?comment_id=2032820633826167"
+                      target="_blank">
+                      <h3 class="testimonial__title">“Me afilié hace poco y hasta ahora, ningún problema.”</h3>
+                    </a>
+                  </div><!-- /. testimonial-item -->
+
+                  <!-- Testimonial #7 -->
+                    <div class="testimonial-item">
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022UJk1jBMiWZNzSY3aFaytCDcEDDLmF1nZZkdEALfuZ4XgGktRDgABPZ65niXir4dl?comment_id=1492560175199115"
+                      target="_blank">
+                      <h3 class="testimonial__title">“muy buena prepaga”</h3>
+                    </a>
+                  </div><!-- /. testimonial-item -->
+                  <!-- Testimonial #8 -->
+                  <div class="testimonial-item">
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid036LtwGeBC4wP7w9bWrPmbcYkkYGaE2fLvXx6jwhf1XCzEtR3dSStZivyX5Yybd5Pxl?comment_id=1056550449493191"
+                      target="_blank">
+                      <h3 class="testimonial__title">“Excelente atención, la recomiendo”</h3>
+                    </a>
+                  </div><!-- /. testimonial-item -->
+                  <!-- Testimonial #9 -->
+                  <div class="testimonial-item">
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022fcEP7X73CuSVpW5cTLN6BYnPajn1raiMt9JbWnBWqLDafBsKXbesogcaWFStFSil?comment_id=1099384338574861"
+                      target="_blank">
+                      <h3 class="testimonial__title">“MUY BUENA LA RECOMIENDO.”</h3>
+                    </a>
+                  </div><!-- /. testimonial-item -->
+                     <!-- Testimonial #10 -->
+                   <div class="testimonial-item">
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022UJk1jBMiWZNzSY3aFaytCDcEDDLmF1nZZkdEALfuZ4XgGktRDgABPZ65niXir4dl?comment_id=1425940655122039"
+                      target="_blank">
+                      <h3 class="testimonial__title">“Tenemos el plan 300 hace un mes, ni una queja la verdad, muchas gracias.”</h3>
+                    </a>
+                  </div><!-- /. testimonial-item -->
+                      <!-- Testimonial #11 -->
+                   <div class="testimonial-item">
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022UJk1jBMiWZNzSY3aFaytCDcEDDLmF1nZZkdEALfuZ4XgGktRDgABPZ65niXir4dl?comment_id=1362719244882853"
+                      target="_blank">
+                      <h3 class="testimonial__title">“Es una obra social exelente la verdad no me puedo quejar”</h3>
+                    </a>
+                  </div><!-- /. testimonial-item -->
+
+                </div><!-- /.slick-carousel -->
+                <button class="next-btn">❯</button> <!-- Botón Next -->
+              </div>
+              <div class="slider-nav mb-60">
+
+                   <!-- Autor #1-->
+                <div class="testimonial__meta">
+                  <div class="testimonial__thmb">
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022UJk1jBMiWZNzSY3aFaytCDcEDDLmF1nZZkdEALfuZ4XgGktRDgABPZ65niXir4dl?comment_id=1451202846038010"
+                      target="_blank">
+                      <img src="assets/images/testimonials/thumbs/solange.jpg" alt="author thumb">
+                    </a>
+                  </div>
+                  <div>
+                    <h4 class="testimonial__meta-title">Solange</h4>
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022UJk1jBMiWZNzSY3aFaytCDcEDDLmF1nZZkdEALfuZ4XgGktRDgABPZ65niXir4dl?comment_id=1451202846038010"
+                      target="_blank">
+                      <img src="assets/images/premedic/facebook.png" alt="Facebook" style="width:20px; height:auto;">
+                    </a>
+                  </div>
+                </div><!-- /.testimonial-meta -->
+               
+
+                
+                <!-- Autor #1.5 -->
+                <div class="testimonial__meta">
+                  <div class="testimonial__thmb">
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022UJk1jBMiWZNzSY3aFaytCDcEDDLmF1nZZkdEALfuZ4XgGktRDgABPZ65niXir4dl?comment_id=1199445935225654"
+                      target="_blank">
+                      <img src="assets/images/testimonials/thumbs/noelia.jpg" alt="author thumb">
+                    </a>
+                  </div>
+                  <div>
+                    <h4 class="testimonial__meta-title">Noelia</h4>
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022UJk1jBMiWZNzSY3aFaytCDcEDDLmF1nZZkdEALfuZ4XgGktRDgABPZ65niXir4dl?comment_id=1199445935225654"
+                      target="_blank">
+                      <img src="assets/images/premedic/facebook.png" alt="Facebook" style="width:20px; height:auto;">
+                    </a>
+                  </div>
+                </div><!-- /.testimonial-meta -->
+                <!-- Autor #2 -->
+                <div class="testimonial__meta">
+                  <div class="testimonial__thmb">
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid036S2xvDxuchyJpQvo5u6j93Q7icAUDCbj2QJ3y8YCXnu7Tpas9EHVyG5FRWdxvmqbl?comment_id=3981295245466212"
+                      target="_blank">
+                      <img src="assets/images/testimonials/thumbs/maria.jpg" alt="author thumb">
+                    </a>
+                  </div>
+                  <div>
+                    <h4 class="testimonial__meta-title">Maria</h4>
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid036S2xvDxuchyJpQvo5u6j93Q7icAUDCbj2QJ3y8YCXnu7Tpas9EHVyG5FRWdxvmqbl?comment_id=3981295245466212"
+                      target="_blank">
+                      <img src="assets/images/premedic/facebook.png" alt="Facebook" style="width:20px; height:auto;">
+                    </a>
+                  </div>
+                </div><!-- /.testimonial-meta -->
+
+                <!-- Autor #3 -->
+                <div class="testimonial__meta">
+                  <div class="testimonial__thmb">
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022fcEP7X73CuSVpW5cTLN6BYnPajn1raiMt9JbWnBWqLDafBsKXbesogcaWFStFSil?comment_id=3012648182233689"
+                      target="_blank">
+                      <img src="assets/images/testimonials/thumbs/vanesa.jpg" alt="author thumb">
+                    </a>
+                  </div>
+                  <div>
+                    <h4 class="testimonial__meta-title">Vanesa</h4>
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022fcEP7X73CuSVpW5cTLN6BYnPajn1raiMt9JbWnBWqLDafBsKXbesogcaWFStFSil?comment_id=3012648182233689"
+                      target="_blank">
+                      <img src="assets/images/premedic/facebook.png" alt="Facebook" style="width:20px; height:auto;">
+                    </a>
+                  </div>
+                </div><!-- /.testimonial-meta -->
+
+                <!-- Autor #4 -->
+                <div class="testimonial__meta">
+                  <div class="testimonial__thmb">
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022fcEP7X73CuSVpW5cTLN6BYnPajn1raiMt9JbWnBWqLDafBsKXbesogcaWFStFSil?comment_id=1862987200897796"
+                      target="_blank">
+                      <img src="assets/images/testimonials/thumbs/andres.jpg" alt="author thumb">
+                    </a>
+                  </div>
+                  <div>
+                    <h4 class="testimonial__meta-title">Andres</h4>
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022fcEP7X73CuSVpW5cTLN6BYnPajn1raiMt9JbWnBWqLDafBsKXbesogcaWFStFSil?comment_id=1862987200897796"
+                      target="_blank">
+                      <img src="assets/images/premedic/facebook.png" alt="Facebook" style="width:20px; height:auto;">
+                    </a>
+                  </div>
+                </div><!-- /.testimonial-meta -->
+
+                <!-- Autor #5 -->
+                <div class="testimonial__meta">
+                  <div class="testimonial__thmb">
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022fcEP7X73CuSVpW5cTLN6BYnPajn1raiMt9JbWnBWqLDafBsKXbesogcaWFStFSil?comment_id=631836582543401"
+                      target="_blank">
+                      <img src="assets/images/testimonials/thumbs/sergio.jpg" alt="author thumb">
+                    </a>
+                  </div>
+                  <div>
+                    <h4 class="testimonial__meta-title">Sergio</h4>
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022fcEP7X73CuSVpW5cTLN6BYnPajn1raiMt9JbWnBWqLDafBsKXbesogcaWFStFSil?comment_id=631836582543401"
+                      target="_blank">
+                      <img src="assets/images/premedic/facebook.png" alt="Facebook" style="width:20px; height:auto;">
+                    </a>
+                  </div>
+                </div><!-- /.testimonial-meta -->
+
+                <!-- Autor #6 -->
+                <div class="testimonial__meta">
+                  <div class="testimonial__thmb">
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022fcEP7X73CuSVpW5cTLN6BYnPajn1raiMt9JbWnBWqLDafBsKXbesogcaWFStFSil?comment_id=1862987200897796"
+                      target="_blank">
+                      <img src="assets/images/testimonials/thumbs/fer.jpg" alt="author thumb">
+                    </a>
+                  </div>
+                  <div>
+                    <h4 class="testimonial__meta-title">Fer</h4>
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022fcEP7X73CuSVpW5cTLN6BYnPajn1raiMt9JbWnBWqLDafBsKXbesogcaWFStFSil?comment_id=1862987200897796"
+                      target="_blank">
+                      <img src="assets/images/premedic/facebook.png" alt="Facebook" style="width:20px; height:auto;">
+                    </a>
+                  </div>
+                </div><!-- /.testimonial-meta -->
+ <!-- Autor #7 -->
+                <div class="testimonial__meta">
+                  <a href="https://www.facebook.com/premedic.arg/posts/pfbid022UJk1jBMiWZNzSY3aFaytCDcEDDLmF1nZZkdEALfuZ4XgGktRDgABPZ65niXir4dl?comment_id=1492560175199115"
+                    target="_blank">
+                    <div class="testimonial__thmb">
+                      <img src="assets/images/testimonials/thumbs/gonza.jpg" alt="author thumb">
+                    </div>
+                  </a>
+                  <div>
+                    <h4 class="testimonial__meta-title">Gonza</h4>
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022UJk1jBMiWZNzSY3aFaytCDcEDDLmF1nZZkdEALfuZ4XgGktRDgABPZ65niXir4dl?comment_id=1492560175199115"
+                      target="_blank">
+                      <img src="assets/images/premedic/facebook.png" alt="Facebook" style="width:20px; height:auto;">
+                    </a>
+                  </div>
+                </div><!-- /.testimonial-meta -->
+             
+                <!-- Autor #8 -->
+                <div class="testimonial__meta">
+                  <div class="testimonial__thmb">
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid036LtwGeBC4wP7w9bWrPmbcYkkYGaE2fLvXx6jwhf1XCzEtR3dSStZivyX5Yybd5Pxl?comment_id=1056550449493191"
+                      target="_blank">
+                      <img src="assets/images/testimonials/thumbs/alejandra.jpg" alt="author thumb">
+                    </a>
+                  </div>
+                  <div>
+                    <h4 class="testimonial__meta-title">Alejandra</h4>
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid036LtwGeBC4wP7w9bWrPmbcYkkYGaE2fLvXx6jwhf1XCzEtR3dSStZivyX5Yybd5Pxl?comment_id=1056550449493191"
+                      target="_blank">
+                      <img src="assets/images/premedic/facebook.png" alt="Facebook" style="width:20px; height:auto;">
+                    </a>
+                  </div>
+                </div><!-- /.testimonial-meta -->
+                <!-- Autor #9 -->
+                <div class="testimonial__meta">
+                  <div class="testimonial__thmb">
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid036LtwGeBC4wP7w9bWrPmbcYkkYGaE2fLvXx6jwhf1XCzEtR3dSStZivyX5Yybd5Pxl?comment_id=1307001553777377"
+                      target="_blank">
+                      <img src="assets/images/testimonials/thumbs/ciin.jpg" alt="author thumb">
+                    </a>
+                  </div>
+                  <div>
+                    <h4 class="testimonial__meta-title">Ciin</h4>
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid036LtwGeBC4wP7w9bWrPmbcYkkYGaE2fLvXx6jwhf1XCzEtR3dSStZivyX5Yybd5Pxl?comment_id=1307001553777377"
+                      target="_blank">
+                      <img src="assets/images/premedic/facebook.png" alt="Facebook" style="width:20px; height:auto;">
+                    </a>
+                  </div>
+                </div><!-- /.testimonial-meta -->
+                <div class="testimonial__meta">
+                  <div class="testimonial__thmb">
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022UJk1jBMiWZNzSY3aFaytCDcEDDLmF1nZZkdEALfuZ4XgGktRDgABPZ65niXir4dl?comment_id=1425940655122039"
+                      target="_blank">
+                      <img src="assets/images/testimonials/thumbs/priscila.jpg" alt="author thumb">
+                    </a>
+                  </div>
+                  <div>
+                    <h4 class="testimonial__meta-title">Priscila</h4>
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022UJk1jBMiWZNzSY3aFaytCDcEDDLmF1nZZkdEALfuZ4XgGktRDgABPZ65niXir4dl?comment_id=1425940655122039"
+                      target="_blank">
+                      <img src="assets/images/premedic/facebook.png" alt="Facebook" style="width:20px; height:auto;">
+                    </a>
+                  </div>
+                </div><!-- /.testimonial-meta -->
+                 <div class="testimonial__meta">
+                  <div class="testimonial__thmb">
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022UJk1jBMiWZNzSY3aFaytCDcEDDLmF1nZZkdEALfuZ4XgGktRDgABPZ65niXir4dl?comment_id=1362719244882853"
+                      target="_blank">
+                      <img src="assets/images/testimonials/thumbs/edmundo.jpg" alt="author thumb">
+                    </a>
+                  </div>
+                  <div>
+                    <h4 class="testimonial__meta-title">Edmundo</h4>
+                    <a href="https://www.facebook.com/premedic.arg/posts/pfbid022UJk1jBMiWZNzSY3aFaytCDcEDDLmF1nZZkdEALfuZ4XgGktRDgABPZ65niXir4dl?comment_id=1362719244882853"
+                      target="_blank">
+                      <img src="assets/images/premedic/facebook.png" alt="Facebook" style="width:20px; height:auto;">
+                    </a>
+                  </div>
+                </div><!-- /.testimonial-meta -->
+              </div><!-- /.slider-nav -->
+
+            </div><!-- /.col-lg-7 -->
+          </div><!-- /.row -->
+        </div><!-- /.testimonials-wrapper -->
+      </div><!-- /.container -->
+    </section><!-- /.testimonials layout 2 -->
+    <script>$(document).ready(function () {
+        // Inicializa Slick sin flechas nativas
 
 
+        function syncTestimonial(index) {
+          $(".testimonial__meta").removeClass("active"); // Quitamos la clase activa de todos
+          $(".testimonial__meta").eq(index).addClass("active"); // Activamos el correspondiente
+        }
+
+        // Cuando cambie el slide, sincroniza el autor
+        $('.slider-with-navs').on('afterChange', function (event, slick, currentSlide) {
+          syncTestimonial(currentSlide);
+        });
+
+        // Flechas personalizadas para avanzar y retroceder
+        $('.prev-btn').click(function () {
+          $('.slider-with-navs').slick('slickPrev');
+        });
+
+        $('.next-btn').click(function () {
+          $('.slider-with-navs').slick('slickNext');
+        });
+
+        // Inicia sincronizando el primer testimonio
+        syncTestimonial(0);
+
+        console.log('✅ Slick.js inicializado correctamente con sincronización.');
+      });
+
+    </script>
     <section class="coverage-section">
       <div class="bg-img"><img src="assets/assets2/6taunidad/Premedic_Fondo_MejoraAmpliamenteTuCoberturaMedica.jpg"
           alt="slide img"></div>
@@ -799,27 +1294,22 @@
           <!-- Columna de Texto -->
           <div class="col-lg-6 text-column">
             <h2 class="coverage-title">
-              <span class="title-light">Mejorá ampliamente</span><br>
-              <span class="title-bold2">tu cobertura médica.</span>
+              <span class="title-light">Mejorá tu cobertura médica</span><br>
+              <span class="title-bold2"> sin pagar más</span>
             </h2>
             <p class="coverage-desc">
-              ¿Sabías que únicamente con el aporte mensual de obra social, es decir con el 3% que se descuenta por ley
-              nacional 23.660, pueden hacer uso de la opción de elección de obra social <span
-                class="highlight-green">sin pagar cuota adicional?</span><br><br>
-              Este derecho/beneficio, le permite como trabajador poder agregar al grupo familiar primario <span
-                class="highlight-green">sin pagar adicional mensual, ni cuota.</span><br><br>
-              Con el plan por aportes pueden acceder a las clínicas con todas sus especialidades:
-              Pediatría/Ginecología/Médico clínico/Cardiología/Urgencias clínicas <span class="highlight-green">sin
-                cargo adicional</span>
+              ¿Sabías que con el aporte obligatorio del 3% podés elegir tu obra social <span class="highlight-green">sin
+                pagar cuota adicional?</span><br><br>
+
+              Sumá también a tu grupo familiar  <span class="highlight-green">sin costo extra</span> y accedé a clínicas y especialistas de todas las áreas:
+              pediatría, ginecología, cardiología, médico clínico, urgencias y más.</span><br><br>
+
+             <span class="highlight-green"> Incluye una cartilla completa:</span> diagnóstico por imágenes, anestesiología, cirugía, endocrinología,
+              infectología, gastroenterología, cirugía infantil, geriatría, obstetricia y todas las especialidades
+              médicas esenciales.
             </p>
-            <p class="coverage-services">
-              Las especialidades médicas incluidas dentro de la cartilla médica son: clínica médica, anatomía
-              patológica, diagnóstico por imágenes, anestesiología, cardiología y ecografía, cirugía cardiovascular,
-              endocrinología, cirugía de cabeza y cuello, infectología, cirugía general, fístiaria, cirugía infantil,
-              cirugía plástica reparadora, gastroenterología, cirugía de tórax, geriatría, clínica médica, infectología,
-              hematología, reumatología, nefrología, terapia intensiva y obstetricia.
-            </p>
-            <a href="#" class="btn btn_button">Quiero asociarme</a>
+            
+            <a href="#" class="btn btn_button">Quiero asociarme ahora</a>
           </div>
 
           <!-- Columna de Imagen -->
@@ -838,8 +1328,8 @@
 
     <section class="cta-section">
       <div class="cta-content">
-        <p class="cta-text">Con Premedic Medicina Privada podés mejorar tu Cobertura Médica, Obra Social bajando tus
-          costos.</p>
+        <p class="cta-text">Con Premedic Medicina Privada podés mejorar tu Cobertura Médica u Obra Social bajando tus
+          costos</p>
         <a href="https://wa.me/5491124035095?text=Hola,%20necesito%20asesoramiento%20personalizado."
           class="btn btn_button2" target="_blank">Asesoramiento</a>
       </div>
@@ -853,11 +1343,11 @@
           <div class="footer-left">
             <img src="assets/images/premedic/Menu_Logo_Blanco.png" alt="Logo Premedic" class="footer-logo">
             <!-- Reemplaza con la ruta de tu logo -->
-            <p class="footer-text">Agente Comercial Oficial de Grupo Premedic<br>
-              Copyrights © 2023 Todos los derechos reservados | <a href="#">Política de Privacidad</a>
+            <p class="footer-text">Agente Comercial Oficial del Grupo Premedic<br>
+              Copyrights © 2023 Todos los derechos reservados | Política de Privacidad
             </p>
             <p class="footer-text">
-              Superintendencia de Servicios de Salud Organo Control de Obras Sociales y entidades de Medicina Prepaga
+              Superintendencia de Servicios de Salud Órgano de Control de Obras Sociales y entidades de Medicina Prepaga
               0800-222-SALUD (72583) | www.sssalud.gob.ar | RNEMP N° 121172
             </p>
           </div>
@@ -868,17 +1358,21 @@
               <div class="footer-links-group">
                 <h4 class="footer-title">Quiero Asociarme</h4>
                 <ul class="footer-links">
-                  <li><a href="#">Prestadores</a></li>
-                  <li><a href="#">Planes</a></li>
-                  <li><a href="#">Beneficios</a></li>
-                  <li><a href="#">Asesoramiento</a></li>
+                  <li><a href="#prestadores">Prestadores</a></li>
+                  <li><a href="#planes">Planes</a></li>
+                  <li><a href="#beneficios">Beneficios</a></li>
+                  <li><a
+                      href="https://wa.me/5491124035095?text=Hola,%20necesito%20asesoramiento%20personalizado.">Asesoramiento</a>
+                  </li>
                 </ul>
               </div>
 
               <div class="footer-links-group">
                 <h4 class="footer-title">Ya Soy Socio/a</h4>
                 <ul class="footer-links">
-                  <li><a href="#">Atención al Socio</a> <br><span>(exclusivo para socios)</span></li>
+                  <li><a
+                      href="https://wa.me/5491124035095?text=Hola,%20necesito%20asesoramiento%20personalizado.">Atención
+                      al Socio</a> <br><span>(exclusivo para socios)</span></li>
                 </ul>
               </div>
             </div>
@@ -891,6 +1385,9 @@
           </div>
 
         </div>
+        <p class="footer-developer-text">
+          Desarrollado por <a href="https://suprads.com/" target="_blank" rel="noopener noreferrer">Suprads</a>
+        </p>
       </div>
     </footer>
 
@@ -903,16 +1400,18 @@
     <div class="modal-content">
       <span class="close-btn">&times;</span>
       <h2>Completá el <span class="green-text">formulario</span><br> para recibir el asesoramiento.</h2>
-      <form class="modal-form">
-        <input type="text" placeholder="Nombre" required>
-        <input type="number" placeholder="Edad" required>
-        <input type="text" placeholder="Localidad" required>
-        <input type="number" placeholder="Teléfono o WhatsApp" required>
-        <input type="text" placeholder="Tipo de Afiliación" required>
+      <form class="modal-form" action="mail.php" method="POST">
+        <input type="text" name="nombre" placeholder="Nombre" required>
+        <input type="number" name="edad" placeholder="Edad" required>
+        <input type="text" name="localidad" placeholder="Localidad" required>
+        <input type="number" name="telefono" placeholder="Teléfono o WhatsApp" required>
+        <input type="text" name="email" placeholder="Email" required>
+        <input type="text" name="afiliacion" placeholder="Tipo de Afiliación" required>
         <button type="submit" class="submit-btn">Solicitar Asesoramiento</button>
         <p class="modal-note">* Formulario exclusivo para no socios <br><strong>Somos agentes comerciales oficiales de
             Premedic.</strong></p>
       </form>
+
     </div>
   </div>
 

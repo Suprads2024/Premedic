@@ -3,7 +3,7 @@
   }
   
   .coverage-title {
-    font-size: 24px;
+    font-size: 37px;
     line-height: 1.2;
     margin-bottom: 20px;
   }
@@ -71,23 +71,23 @@
   
   .coverage-image {
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
     border-radius: 8px;
   }
   
   .overlay-text {
     color: white;
     position: absolute;
-    bottom: 50px;
+    bottom: 20px;
     left: 20px; /* Posiciona el texto hacia la izquierda */
     padding: 10px;
     border-radius: 5px;
     text-align: left; /* Alinea el texto a la izquierda */
-    max-width: 90%; /* Limita el ancho para evitar que se desborde */
+    max-width: 95%; /* Limita el ancho para evitar que se desborde */
   }
   
   .overlay-text p {
-    font-size: 26px;
+    font-size: 23px;
     color: white;
     margin: 0; /* Elimina espacio adicional arriba y abajo del párrafo */
     line-height: 1.2; /* Ajusta el espacio entre líneas */
@@ -100,6 +100,7 @@
   
   @media (max-width: 992px) {
     .coverage-title {
+      font-size: 24px;
       text-align: left;
     }
     .text-column {
@@ -194,7 +195,7 @@
     background-image: url('../assets2/Footer/Premedic_Fondo_footer.jpg'); /* Reemplaza con la ruta de tu imagen de fondo */
     background-size: cover;
     background-position: center;
-    padding: 40px 20px;
+    padding: 40px 20px 10px 20px;
     color: #ffffff;
   }
   
@@ -305,6 +306,24 @@
   .btn_button3:hover {
     color: white;
   
+  }
+  .footer-developer-text {
+    text-decoration: none!important;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff; /* Cambia el color si deseas otro tono */
+    margin-top: 20px; /* Espacio para separarlo del contenido anterior */
+  }
+  
+  .footer-developer-text a {
+    font-weight: 700;
+    text-decoration: none!important;
+    color: #7F7CFD;
+    text-decoration: underline; /* Subrayado para resaltar el enlace */
+  }
+  
+  .footer-developer-text a:hover {
+    color: #ffffff; /* Cambia el color al pasar el cursor para mejor interacción */
   }
   
   /* Responsive */

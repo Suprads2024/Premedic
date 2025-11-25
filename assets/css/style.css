@@ -3688,7 +3688,7 @@ input[type=radio] {
 }
 @media (max-width: 420px) {
   .header .navbar-brand img {
-    max-width: 120px;
+    max-width: 180px;
   }
   .header .action__btn-login span {
     display: none;

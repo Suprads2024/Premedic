@@ -1005,7 +1005,7 @@ textarea {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.425); /* transparente */
+  background: rgba(0, 0, 0, 0.548); /* transparente */
   backdrop-filter: grayscale(100%);
 
 }
@@ -4091,7 +4091,7 @@ input[type=radio] {
   margin-bottom: 8px;
 }
 .slider .slide__title {
-  font-size: 60px; /* Ajusta según el tamaño que necesites */
+  font-size: 80px; /* Ajusta según el tamaño que necesites */
   line-height: 1.1; /* Espaciado vertical entre las líneas */
   margin-bottom: 25px;
   color: #ffffff; /* Color blanco para el texto */
@@ -4126,7 +4126,7 @@ input[type=radio] {
   }
 }
 
-@media (min-width: 1950px) {  .slider .col-xl-7 {
+@media (min-width: 1950px) {  .slider .col-xl-9 {
     max-width: 100%!important; /* ocupa más ancho real */
     flex: 0 0 100%!important;
   }
@@ -4141,14 +4141,12 @@ input[type=radio] {
   }
 
   .btn__primary{
-  font-size: 2rem;}
+  font-size: 1.5rem;}
   .btn_quote{
     font-size: 2rem!important;
   }
 
-  .btn-float{
-    font-size: 2rem!important;
-  }
+
 }
 
 

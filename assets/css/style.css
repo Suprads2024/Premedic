@@ -1027,8 +1027,9 @@ textarea {
 }
 
 
-/* Cambia la imagen en pantallas pequeñas */
+/* Imagen móvil con filtro blanco y negro */
 @media (max-width: 768px) {
+
   .slider .bg-img::before {
     content: "";
     position: absolute;
@@ -1036,11 +1037,17 @@ textarea {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.3); /* Overlay oscuro */
-    content: url('../images/premedic/450x800_Versioncelu_Portada.jpg')!important;
-    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-image: url('../images/premedic/450x800_Versioncelu_Portada.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    filter: grayscale(100%) !important; /* ← blanco y negro */
+    
+    z-index: 0;
   }
 }
+
 
 
 /* Centrado del texto y botón en versión móvil */

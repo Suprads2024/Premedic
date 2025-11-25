@@ -4125,6 +4125,33 @@ input[type=radio] {
    
   }
 }
+
+@media (min-width: 1950px) {  .slider .col-xl-7 {
+    max-width: 100%!important; /* ocupa más ancho real */
+    flex: 0 0 100%!important;
+  }
+
+  .slider .slide__title {
+    font-size: 7rem;  /* si ya lo agrandaste, dejalo */
+    line-height: 1.2; /* para evitar amontonamiento */
+  }
+
+  .navbar .nav__item .nav__item-link{
+    font-size: 2rem;
+  }
+
+  .btn__primary{
+  font-size: 2rem;}
+  .btn_quote{
+    font-size: 2rem!important;
+  }
+
+  .btn-float{
+    font-size: 2rem!important;
+  }
+}
+
+
 .slider .slide__title .line-top {
   font-weight: 300; /* Fuente más ligera para "Mejorá ampliamente" */
 }
